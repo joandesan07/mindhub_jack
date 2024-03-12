@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+}
+
+section {
+    display: block;
+}
+
+.contain-main_info {
+    background-color: var(--background-body);
+    color: var(--principal-txt-c);
+    padding: 50px;
+    display: grid;
+    place-content: center;
+}
+
+.contain_table {
+    display: block;
+}
+
+h2 {
+    background-color: #050202;
+}
+
+table {
+    position: absolute;
+    right: 21rem;
+    top: 26rem;
+    width: 55%;
+    border-collapse: collapse;
+}
+.modTable>h2{
+    position: absolute;
+    bottom: 1rem;
+    
+}
+
+th,
+td {
+    border: 3px solid #050202;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(80 92 225);
+}
