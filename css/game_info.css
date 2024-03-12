@@ -12,6 +12,13 @@ section {
     display: block;
 }
 
+article {
+    padding: 50px;
+    display: grid;
+    place-content: center;
+    transform: translate(-28px, 213px);
+}
+
 .contain-main_info {
     background-color: var(--background-body);
     color: var(--principal-txt-c);
@@ -24,8 +31,11 @@ section {
     display: block;
 }
 
-h2 {
-    background-color: #050202;
+.fixh2 {
+    text-align: center;
+    position: absolute;
+    bottom: 18rem;
+    left: 21rem;
 }
 
 table {
@@ -35,19 +45,46 @@ table {
     width: 55%;
     border-collapse: collapse;
 }
-.modTable>h2{
-    position: absolute;
-    bottom: 1rem;
-    
+
+caption {
+    text-align: start;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
 }
 
 th,
 td {
-    border: 3px solid #050202;
+    background-color: yellow;
+    font-size: 15px;
+    border: 1px solid #050202;
     padding: 8px;
     text-align: center;
 }
 
 th {
     background-color: rgb(80 92 225);
+}
+.normal-text {
+    font-weight: normal;
+
+}
+
+.spaced-span {
+    margin-left: 18px;
+
+}
+
+footer {
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+    padding: 0px;
+    bottom: 0;
+    width: 99%;
+    transform: translate(10px, 220px);
 }
