@@ -29,15 +29,10 @@ article {
     place-content: center;
 }
 
-.contain_table {
-    display: block;
-}
 
 .fixh2 {
-    text-align: center;
     position: absolute;
-    bottom: 18rem;
-    left: 21rem;
+    transform: translate(485px, -19px);
 }
 
 table {
@@ -103,5 +98,5 @@ footer {
     padding: 0px;
     bottom: 0;
     width: 99%;
-    transform: translate(10px, 220px);
+    transform: translate(10px, 290px);
 }

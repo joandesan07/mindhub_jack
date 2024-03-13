@@ -64,7 +64,7 @@ Main {
 
 
 img {
-    padding-left: 13rem;
+    padding-left: 8rem;
 }
 
 h1 {
@@ -111,6 +111,47 @@ div h2 {
     height: 300px;
 }
 
+.modContact article {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.modLogoContact {
+    display: flex;
+    width: 500px;
+    height: 300px;
+}
+
+.modGame{
+    position: static;
+}
+.modGame .textInfo {
+    position: absolute;
+    left: 32rem;
+    bottom: -16rem;
+}
+
+.modLogoGame {
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+
+.modGame.modTable{
+    background-color: #000000;
+    position: relative;
+}
+
+.modTableTab {
+    display: table;
+    position: absolute;
+    right: 120px;
+    top: 33rem;
+}
+
 .mainOne,
 .mainTwo,
 .mainThree {
@@ -133,7 +174,6 @@ div h2 {
     margin-bottom: 1rem;
 
 }
-
 
 dd {
     margin-left: 25px;
