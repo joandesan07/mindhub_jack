@@ -17,7 +17,9 @@ article {
     display: grid;
     place-content: center;
     transform: translate(-28px, 213px);
+    
 }
+
 
 .contain-main_info {
     background-color: var(--background-body);
@@ -69,7 +71,6 @@ caption {
     padding: 8px;    
     
 }
-
 
 th,
 td{
