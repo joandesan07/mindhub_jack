@@ -1,21 +1,66 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
-    display: flex;
-    background-color: blue;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-    color: white;
-}
-
-section{
+form {
+    padding-top: 1rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+
+}
+
+.forMain {
+    background-color: blue;
+}
+
+
+fieldset {
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 6px 6px 15px -2.7px;
+}
+
+.fielOne {
+    width: 60%;
+    height: 9rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.sin-marcador {
+    list-style-type: none;
+}
+
+.fielTwo {
+    display: flex;
+    width: 60%;
+    height: 14rem;
+    padding: 1rem;
+    margin: 2rem;
+    justify-content: space-around;
+}
+
+
+.fielThree {
+    width: 60%;
+    height: 9rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.fielFour {
+    width: 60%;
+    height: 9rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.fielFive {
+    width: 60%;
+    padding: 1rem;
+    margin: 2rem;
 }

@@ -1,25 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/registration_form.css">
-    <title>Formularios</title>
+    <title>Registration Form - Hockey League</title>
+    <link rel="shortcut icon" href="./img/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/mdhl.css">
+    <link rel="stylesheet" href="/css/registration_form.css">
 </head>
-<header>
-    <h1>Registration Form</h1>
-</header>
 
 <body>
-    <section>
-        <form action="./show_data.html" method="get">
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name">
-            <button>Send</button>
+    <header>
+        <h1>Mighty Ducks Hockey League</h1>
+        <img class="modImg" src="./img/design1_image2.jpg" width="300" alt="aqui se muestra un jugador de hockey">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About MDHL</a>
+            <a href="contact.html">Contact</a>
+            <a href="game_info.html">Game Information</a>
+            <a href="rules.html">Rules of Play & Policies</a>
+            <a href="#">Registration Form</a>
+        </nav>
+        <div>
+            <h2>Registration Form</h2>
+        </div>
+    </header>
+    <div class="formulario">
+        <form class="forMain" action="./show_data.html" method="get">
+            <fieldset class="fielOne">
+                <legend>Registration Form</legend>
+
+                <label for="name">Player´s Fisrt Name</label>
+                <input type="text" name="name" id="name" placeholder="Input your name">
+
+                <label style="padding-left: 3rem;" for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Input your last name "><br>
+
+                <label for="streetaddress">Street Address</label>
+                <input type="text" name="streetaddress" id="streetaddress" placeholder="Input your street address"><br>
+
+                <label for="city">City</label>
+                <input type="text" name="city" id="city">
+
+                <label style="padding-left: 10rem;" for="zipcode">Zip Code</label>
+                <input type="text" name="zipcode" id="zipcode"><br>
+
+                <label for="birthdate">Birth Date (mm/dd/yyy)</label>
+                <input type="text" name="birthdate" id="birthdate">
+
+                <label style="padding-left: 1.5rem;">Gender:</label>
+                <label>Female</label>
+                <input type="radio" name="genero" id="female" value="Female">
+                <label>Male</label>
+                <input type="radio" name="genero" id="male" value="Male">
+
+
+
+
+
+            </fieldset>
+
+            <fieldset class="fielTwo">
+                <legend>Which elementary school do you live near?</legend>
+                <p style="transform: translate(-76px,10px);">Closest School:</p>
+                <div style="transform: translate(-345px, 51px);">
+                    <ul class="sin-marcador">
+                        <li><input type="checkbox">
+                            <label>AJ katzenmaier</label>
+                        </li>
+                        <li><input type="checkbox">
+                            <label>Marjorie P Hart</label>
+                        </li>
+                        <li><input type="checkbox">
+                            <label>Greenbay</label>
+                        </li>
+                    </ul>
+                </div>
+                <div style="transform: translate(-434px, 50px);">
+                    <ul class="sin-marcador">
+                        <li><input type="checkbox">
+                            <label>North Elementary</label>
+                        </li>
+                        <li><input type="checkbox">
+                            <label>Howard A Yeaguer</label>
+                        </li>
+                        <li><input type="checkbox">
+                            <label>South Elementary</label>
+                        </li>
+                    </ul>
+                </div>
+            </fieldset>
+
+            <fieldset class="fielThree">
+                <legend>What position(s) do you normally play? (check all that apply)</legend>
+                <div>
+                    <input type="checkbox">
+                    <label style="margin-right: 8rem;">Forward</label>
+                    <input type="checkbox">
+                    <label>Midfield</label><br>
+                    <input type="checkbox">
+                    <label style="margin-right: 8rem;">Defense</label>
+                    <input type="checkbox">
+                    <label>Goalkeeper</label>
+                </div>
+            </fieldset>
+
+            <fieldset class="fielFour">
+                <legend>Uniform Size</legend>
+                <input type="checkbox">
+                <label>Youth Smal</label>
+                <input type="checkbox">
+                <label>Youth Medium</label>
+                <input type="checkbox">
+                <label>Youth Large</label>
+                <input type="checkbox">
+                <label>Small</label>
+                <input type="checkbox">
+                <label>Medium</label>
+                <input type="checkbox">
+                <label>Large</label>
+                <input type="checkbox">
+                <label>Extra-Large</label>
+            </fieldset>
+
+            <fieldset class="fielFive">
+                <legend>Permission to Play</legend>
+                <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by
+                    all the
+                    rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical
+                    injury
+                    associated with hockey and in consideration for the "League" accepting the registrant for its
+                    hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL
+                    their employees and associated personnel and volunteers,including the facilities used for
+                    practices and games, against any claim by or on behalf of the registrant as a result of the
+                    registrant's participation in the programand/orbeing transported to or from MDHL sponsored
+                    activities,which transportation
+                    By signing below, I herebyagree andauthorizethe above.In addition, by signing below, lalso
+                    acknowledge that I have read the cancellation policy and agree to its terms.</p><br>
+
+                <label>Parent/GuardianSignature</label>
+                <input type="text"><br>
+                <label>Date</label>
+                <input type="text">
+            </fieldset>
         </form>
-    </section>
+
+    </div>
+
 </body>
 
 </html>
