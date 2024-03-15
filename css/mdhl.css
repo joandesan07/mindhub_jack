@@ -18,15 +18,12 @@ header>.modImg {
 }
 
 nav {
-    display: flexbox;
     margin: 0px;
-    padding: 0px;
+    padding: 1px;
     position: absolute;
     top: 9vh;
-    right: 70px;
-    margin-top: -0.8%;
-
-
+    right: 26px;
+    margin-top: 0.2%;
 }
 
 nav a {
