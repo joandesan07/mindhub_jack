@@ -1,10 +1,14 @@
-* {
+* { background-color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+header,body{
+    background-color: white;
+}
 form {
+    background-color: white;
     padding-top: 1rem;
     display: flex;
     justify-content: center;
@@ -13,18 +17,18 @@ form {
 
 }
 
-.forMain {
-    background-color: blue;
-}
-
 
 fieldset {
+    background-color: rgb(255, 52, 52);
     margin: 1rem;
     padding: 1rem;
-    box-shadow: 6px 6px 15px -2.7px;
+    border: 3px solid #d9c42c;
+    box-shadow: 6px 6px 25px 15.7px;
+    
 }
 
 .fielOne {
+    background-color: white;
     width: 60%;
     height: 9rem;
     padding: 1rem;
@@ -36,6 +40,7 @@ fieldset {
 }
 
 .fielTwo {
+    background-color: white;
     display: flex;
     width: 60%;
     height: 14rem;
@@ -44,8 +49,8 @@ fieldset {
     justify-content: space-around;
 }
 
-
 .fielThree {
+    background-color: white;
     width: 60%;
     height: 9rem;
     padding: 1rem;
@@ -53,14 +58,27 @@ fieldset {
 }
 
 .fielFour {
+    background-color: white;
     width: 60%;
-    height: 9rem;
+    height: 10rem;
     padding: 1rem;
     margin: 2rem;
 }
 
-.fielFive {
+.fielFour2 {
+    background-color: white;
+    margin-right: 46rem;
+    transform: translate(160px, -71px);
+}
+
+.fielFive {background-color: white;
     width: 60%;
     padding: 1rem;
     margin: 2rem;
+}
+
+legend{
+    background-color: #d9c42c;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px aqua;
 }

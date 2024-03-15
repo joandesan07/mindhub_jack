@@ -28,7 +28,7 @@
         </div>
     </header>
     <div class="formulario">
-        <form class="forMain" action="./show_data.html" method="get">
+        <form action="./show_data.html" method="get">
             <fieldset class="fielOne">
                 <legend>Registration Form</legend>
 
@@ -54,11 +54,17 @@
                 <label>Female</label>
                 <input type="radio" name="genero" id="female" value="Female">
                 <label>Male</label>
-                <input type="radio" name="genero" id="male" value="Male">
+                <input type="radio" name="genero" id="male" value="Male"><br>
 
+                <label>Grade</label>
+                <input type="text" name="grade" id="grade">
 
-
-
+                <label style="padding-left: 9rem; padding-right: 1rem;">Pre-School</label>
+                <input type="checkbox">1st
+                <input type="checkbox">2nd
+                <input type="checkbox">3rd
+                <input type="checkbox">4th
+                <input type="checkbox">5th
 
             </fieldset>
 
@@ -109,20 +115,31 @@
 
             <fieldset class="fielFour">
                 <legend>Uniform Size</legend>
-                <input type="checkbox">
-                <label>Youth Smal</label>
-                <input type="checkbox">
-                <label>Youth Medium</label>
-                <input type="checkbox">
-                <label>Youth Large</label>
-                <input type="checkbox">
-                <label>Small</label>
-                <input type="checkbox">
-                <label>Medium</label>
-                <input type="checkbox">
-                <label>Large</label>
-                <input type="checkbox">
-                <label>Extra-Large</label>
+                <div class="fiel_four">
+                    <input type="checkbox">
+                    <label>Youth Smal</label><br>
+                    <input type="checkbox">
+                    <label>Youth Medium</label><br>
+                    <input type="checkbox">
+                    <label>Youth Large</label><br>
+                    <input type="checkbox">
+                    <label>Small</label><br>
+                    <div class="fielFour2">
+                        <ul class="sin-marcador">
+                            <li><input type="checkbox">
+                                <label>Medium</label>
+                            </li>
+                            <li><input type="checkbox">
+                                <label>Large</label>
+                            </li>
+                            <li><input type="checkbox">
+                                <label>Extra-Large</label>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
             </fieldset>
 
             <fieldset class="fielFive">
@@ -145,6 +162,8 @@
                 <label>Date</label>
                 <input type="text">
             </fieldset>
+
+            <button type="submit">Enviar</button>
         </form>
 
     </div>
