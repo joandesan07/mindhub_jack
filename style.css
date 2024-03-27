@@ -12,6 +12,13 @@
   align-items: center;
 }
 
+img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 180px;
+  height: 180px;
+}
+
 h1 {
   display: flex;
   text-align: center;
@@ -49,48 +56,43 @@ h1 {
 /* HEADER */
 
 /* BODY */
-body{
-    
-}
-.container {
-    background-image: url(./assets/Imagenes/fondo.jpg);
-    background-size: 104%;
-    background-position: 0px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container_img {
+  background-color: #ef0202;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
 }
 
-article {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding-left: 10rem;
+.caja1,
+.caja2,
+.caja3 {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.caja1{
+  background-color: #ccc;  
 }
 
-
-img {
-    display: flex;
-    flex-wrap: wrap;
-    width: 180px;
-    height: 180px;
-  }
-  
-  .container_img {
-    display: flex;
-    object-fit: cover;
-    width: 70px;
-    height: 70px;
-  }
-
+.caja2{
+    background-color: #ccc;
+}
+.caja3{
+    background-color: #ccc;
+}
 /* BODY */
 
 /* FOOTER */
 footer {
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 /* FOOTER */
